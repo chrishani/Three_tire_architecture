@@ -3,5 +3,6 @@
 	<import resource="config/spring/DataSource.xml"/>  
 	<import resource="config/spring/HibernateSessionFactory.xml"/>    
 <!-- Beans Declaration -->  
-	<import resource="com/im/customer/spring/CustomerBean.xml"/>   
+	<import resource="com/im/customer/spring/CustomerBean.xml"/>
+	<import resource="com/im/item/spring/ItemBean.xml"/>   
 </beans> 

@@ -2,11 +2,18 @@
 <struts>   
 	<constant name="struts.devMode" value="true" />  
 	<package name="default" namespace="/" extends="struts-default">   
-	<action name="addCustomerAction"     class="customerAction" method="addCustomer" >       
-	<result name="success">customer.jsp</result>   
-	</action>   
-	<action name="listCustomerAction"    class="customerAction" method="listCustomer" >       
-		<result name="success">customer.jsp</result>   
-	</action>  
+		<action name="addCustomerAction"     class="customerAction" method="addCustomer" >       
+			<result name="success">customer.jsp</result>   
+		</action>   
+		<action name="listCustomerAction"    class="customerAction" method="listCustomer" >       
+			<result name="success">customer.jsp</result>   
+		</action>
+		
+		<action name="addItemAction"     class="itemAction" method="addItem" >       
+			<result name="success">item.jsp</result>   
+		</action>   
+		<action name="listItemAction"    class="itemAction" method="listItem" >       
+			<result name="success">item.jsp</result>   
+		</action>  
 	</package> 
 </struts> 

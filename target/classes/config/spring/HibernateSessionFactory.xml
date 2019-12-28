@@ -14,7 +14,8 @@
 		</property>       
 		<property name="mappingResources">   
 			<list>           
-				<value>com/im/customer/hibernate/Customer.hbm.xml</value>   
+				<value>com/im/customer/hibernate/Customer.hbm.xml</value> 
+				<value>com/im/item/hibernate/Item.hbm.xml</value>  
 			</list>     
 		</property>    
 	</bean> 
